@@ -11,7 +11,7 @@
 #define Schablone template
 #define verwert using
 #define Namensraum namespace
-#define rückgabe return
+#define Rückgabe return
 
 #define Klasse class
 #define Strukt struct
@@ -21,19 +21,26 @@
 #define konst const
 #define brisant volatile
 #define veränderlich mutable
-#define ohneausnahme noexcept
+#define ohne_ausnahme noexcept
 
-#define haupt main
-#define konsole_ausgabe_fluss cout
-#define zeilen_ende endl
-#define grosse size
+#define Haupt main
+#define Konsolenausgabe_fluss cout
+#define Zeilenende endl
+#define Größe size
 
-verwert leere = void;
-verwert fahrzeug = char;
-verwert ganzzahl = int;
-verwert gleitkommazeil = float;
+#define Protest assert
+#define Konstausdruck constexpr
+#define Statischerprotest static_assert
+#define statisch static
 
-Namensraum standard = std;
+#define Größe_von sizeof
+
+verwert Leere = void;
+verwert Zeichen = char;
+verwert Ganzzahl = int;
+verwert Gleitkommazeil = float;
+
+Namensraum Standard = std;
 
 Namensraum std {
     Schablone<Typname T>
