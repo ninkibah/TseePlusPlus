@@ -66,3 +66,14 @@ Die folgende Standard Kopfzeilendateien sind unterstützt:
 2. **eingabe_ausgabe_fluss**
 3. **schnur**
 4. **vektor**
+
+## Der, die, das alles
+
+Wenn man einen Variabel deklariert, sollte man das richtige Geschecht benutzen.
+z.B.
+
+```c++
+der Tisch = Personnentabelle{};
+die Summe = 0;
+das Buch = "Der Bibel";
+```

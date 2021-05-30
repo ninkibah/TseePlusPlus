@@ -8,7 +8,7 @@ leere beschissen() {
 
 leere VektorenBeispiel() {
     standard::vektor<fahrzeug> Wort{'H', 'a', 'l', 'l', 'o'};
-    für(auto i = 0; i < Wort.grosse(); ++i) {
+    für(das i = 0; i < Wort.grosse(); ++i) {
         standard::konsole_ausgabe_fluss << Wort[i];
     }
 

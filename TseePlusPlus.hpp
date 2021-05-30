@@ -13,6 +13,10 @@
 #define Namensraum namespace
 #define rückgabe return
 
+#define der auto
+#define die auto
+#define das auto
+
 #define Klasse class
 #define Strukt struct
 #define öffentlich public
