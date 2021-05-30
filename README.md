@@ -46,13 +46,13 @@ Ganzzahl Dreiecknummer(Ganzzahl n) {
 
 Es gibt die folgende Typen in der Sprache:
 
-**leere**
+**Leere**
 : Wenn eine Funktion keine rückgabe hat.
 
-**ganzzahl**
+**Ganzzahl**
 : Eine Nummer ohne Dezimalpunkt.
 
-**gleitkommazeil**
+**Gleitkommazahl**
 : Solche Nummer dürfen Dezimalpunkt und Ziffer haben.
 
 **fahrzeug**

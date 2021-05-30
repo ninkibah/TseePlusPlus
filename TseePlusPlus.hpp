@@ -40,7 +40,7 @@
 verwende Leere = void;
 verwende Zeichen = char;
 verwende Ganzzahl = int;
-verwende Gleitkommazeil = float;
+verwende Gleitkommazahl = float;
 
 Namensraum Standard = std;
 
