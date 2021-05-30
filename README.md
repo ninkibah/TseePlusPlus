@@ -14,9 +14,9 @@ Wir haben Unterstützung für die folgende Schlüsselwörter:
 : Es prüft eine Boolische Spruch, und führt den einen oder anderen Zweig aus.
 ```c++
 wenn (i == 1) {
-    standard::konsole_ausgabe << "Wir haben 1\n";    
+    Standard::Konsolenausgabe << "Wir haben 1\n";    
 } sonst {
-    standard::konsole_ausgabe << "Wir haben etwas anders als 1\n";    
+    Standard::Konsolenausgabe << "Wir haben etwas anders als 1\n";    
 }
 ```
 
@@ -24,8 +24,8 @@ wenn (i == 1) {
 : Diese Schleife ist die einfacheste.
 
 ```c++
-ganzzahl Summe = 0;
-während (ganzzahl = 1; i <= 10) {
+Ganzzahl Summe = 0;
+während (Ganzzahl = 1; i <= 10) {
     Summe += i;
 }
 ```
@@ -33,12 +33,12 @@ während (ganzzahl = 1; i <= 10) {
 **Funktionen**
 : Funktionen sind aufrufbar Codeeinheiten.
 ```c++
-ganzzahl dreiecknummer(ganzzahl n) {
-    ganzzahl Summe = 0;
-    während (ganzzahl = 1; i <= 10) {
+Ganzzahl Dreiecknummer(Ganzzahl n) {
+    Ganzzahl Summe = 0;
+    während (Ganzzahl = 1; i <= 10) {
         Summe += i;
     }
-    rückgabe Summe;
+    Rückgabe Summe;
 }
 ```
 
@@ -64,5 +64,5 @@ noch nicht klar, ob 'ä', 'ö' oder 'ü' Fahrzeuge sind.
 Die folgende Standard Kopfzeilendateien sind unterstützt:
 1. **ansichten**
 2. **eingabe_ausgabe_fluss**
-3. **schnur**
+3. **zeichenkette**
 4. **vektor**

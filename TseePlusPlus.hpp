@@ -1,5 +1,6 @@
 #pragma once
 #include <vektor>
+#include <zeichenkette>
 // Schlüsselwörter
 
 #define wenn if
@@ -12,6 +13,7 @@
 #define verwende using
 #define Namensraum namespace
 #define Rückgabe return
+#define automatisch auto
 
 #define Klasse class
 #define Strukt struct
@@ -21,10 +23,10 @@
 #define konst const
 #define brisant volatile
 #define veränderlich mutable
-#define ohne_ausnahme noexcept
+#define ohne_Ausnahme noexcept
 
 #define Haupt main
-#define Konsolenausgabe_fluss cout
+#define Konsolenausgabe cout
 #define Zeilenende endl
 #define Größe size
 
@@ -42,7 +44,10 @@ verwende Gleitkommazeil = float;
 
 Namensraum Standard = std;
 
-Namensraum std {
+Namensraum std
+{
     Schablone<Typname T>
-    verwende Vektor = vector<T>;
+        verwende Vektor = vector<T>;
+
+    verwende Zeichenkette = string;
 };

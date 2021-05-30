@@ -2,21 +2,25 @@
 #include <eingabe_ausgabe_fluss>
 #include <ansichten>
 
-Leere beschissen() {
+Leere beschissen()
+{
     //fahrzeug ergebnisse = nummern | standard::ansichten::filter([](ganzzahl n){ rückgabe n % 2 == 0; }) | standard::ansichten::umwandeln([](ganzzahl n){ rückgabe n * 2; });
 }
 
-Leere VektorenBeispiel() {
+Leere VektorenBeispiel()
+{
     Standard::Vektor<Zeichen> Wort{'H', 'a', 'l', 'l', 'o'};
-    für(auto i = 0; i < Wort.Größe(); ++i) {
-        Standard::Konsoleausgabe_fluss << Wort[i];
+    für(automatisch i = 0; i < Wort.Größe(); ++i)
+    {
+        Standard::Konsolenausgabe << Wort[i];
     }
-
 }
-Ganzzahl Haupt() {
-    Standard::Konsoleausgabe_fluss << "Hallo Welt!" << std::Zeilenende;
-    rückgabe 0;
-}
+Ganzzahl Haupt()
+{
+    Standard::Zeichenkette Grüße{"Hallo Welt!"};
 
+    Standard::Konsolenausgabe << Grüße << std::Zeilenende;
+    Rückgabe 0;
+}
 
 //fahrzeug ergebnisse = nummern | standard::ansichten::filter([](ganzzahl n){ rückgabe n % 2 == 0; }) | standard::ansichten::umwandeln([](ganzzahl n){ rückgabe n * 2; });

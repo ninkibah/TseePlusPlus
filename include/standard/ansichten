@@ -1,1 +1,3 @@
-#include <ranges>
+#if __cplusplus > 201703L
+    #include <ranges>
+#endif
