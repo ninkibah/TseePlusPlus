@@ -1,0 +1,41 @@
+#include <cstdint>
+#if !defined(verwende)
+#define verwende using
+#endif
+
+verwende Ganzzahl8_t = int8_t;
+verwende Ganzzahl16_t = int16_t;
+verwende Ganzzahl32_t = int32_t;
+verwende Ganzzahl64_t = int64_t;
+
+verwende Ganzzahl_schnell8_t = int_fast8_t;
+verwende Ganzzahl_schnell16_t = int_fast16_t;
+verwende Ganzzahl_schnell32_t = int_fast32_t;
+verwende Ganzzahl_schnell64_t = int_fast64_t;
+
+verwende Ganzzahl_wenigstens8_t = int_least8_t;
+verwende Ganzzahl_wenigstens16_t = int_least16_t;
+verwende Ganzzahl_wenigstens32_t = int_least32_t;
+verwende Ganzzahl_wenigstens64_t = int_least64_t;
+
+verwende Ganzzahl_max_t = intmax_t;
+
+verwende Ganzzahl_Zeiger_t = intptr_t;
+
+verwende Vorzeichenloseganzzahl8_t = uint8_t;
+verwende Vorzeichenloseganzzahl16_t = uint16_t;
+verwende Vorzeichenloseganzzahl32_t = uint32_t;
+verwende Vorzeichenloseganzzahl64_t = uint64_t;
+
+verwende Vorzeichenloseganzzahl_schnell8_t = uint_fast8_t;
+verwende Vorzeichenloseganzzahl_schnell16_t = uint_fast16_t;
+verwende Vorzeichenloseganzzahl_schnell32_t = uint_fast32_t;
+verwende Vorzeichenloseganzzahl_schnell64_t = uint_fast64_t;
+
+verwende Vorzeichenloseganzzahl_wenigstens8_t = uint_least8_t;
+verwende Vorzeichenloseganzzahl_wenigstens16_t = uint_least16_t;
+verwende Vorzeichenloseganzzahl_wenigstens32_t = uint_least32_t;
+verwende Vorzeichenloseganzzahl_wenigstens64_t = uint_least64_t;
+
+verwende Vorzeichenloseganzzahl_max_t = uintmax_t;
+verwende Vorzeichenloserganzzahl_Zeiger_max_t = uintptr_t;
