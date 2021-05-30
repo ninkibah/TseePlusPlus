@@ -9,7 +9,7 @@
 #define für for
 #define Typname typename
 #define Schablone template
-#define verwert using
+#define verwende using
 #define Namensraum namespace
 #define Rückgabe return
 
@@ -35,14 +35,14 @@
 
 #define Größe_von sizeof
 
-verwert Leere = void;
-verwert Zeichen = char;
-verwert Ganzzahl = int;
-verwert Gleitkommazeil = float;
+verwende Leere = void;
+verwende Zeichen = char;
+verwende Ganzzahl = int;
+verwende Gleitkommazeil = float;
 
 Namensraum Standard = std;
 
 Namensraum std {
     Schablone<Typname T>
-    verwert vektor = vector<T>;
+    verwende Vektor = vector<T>;
 };
