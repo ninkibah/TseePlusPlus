@@ -1,0 +1,25 @@
+name: Linux Build
+
+on: [push, pull_request]
+jobs:
+  build-debug:
+    name: Build with clang and C++17
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Update apt
+      run: sudo apt update -y
+    - name: download and install clang and build-essential
+      run:  sudo apt install build-essential lld clang -y cmake
+    - name: prep main
+      run: mkdir build
+    - name: run cmake
+      env:
+        CC: clang
+        CXX: clang++
+      run: |
+        cd build
+        cmake -DBUILD_CXX_20=OFF ..
+    - name: make
+      run: |
+          cd build
+          make
