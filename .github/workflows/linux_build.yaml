@@ -6,6 +6,8 @@ jobs:
     name: Build with clang and C++17
     runs-on: ubuntu-20.04
     steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
     - name: Update apt
       run: sudo apt update -y
     - name: download and install clang and build-essential
